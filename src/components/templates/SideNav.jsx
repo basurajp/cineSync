@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import LogoNav from "./LogoNav";
 
 const SideNav = () => {
+
   return (
     <div className="md:block hidden w-[45%]  md:w-[20%]  h-full border-r-2 border-zinc-200 p-3 ">
       <div className="mb-6">
