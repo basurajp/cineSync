@@ -6,9 +6,8 @@ const Home = () => {
   document.title = "cineSync | Homepage";
   return (
     <>
-        <SideNav />
+      <SideNav />
       <div className="w-[55%]  md:w-[80%] h-full">
-
         <TopNav />
       </div>
     </>
