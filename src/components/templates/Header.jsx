@@ -7,7 +7,7 @@ const Header = () => {
     (store) => store.wallpaper.walllpaper
   );
 
-  console.log(randomWallpaperData);
+
 
   return randomWallpaperData ? (
     <div
