@@ -10,7 +10,7 @@ const TopNav = () => {
   const searchMovieresult = useSelector((store) => store.search.seachResult);
 
   return (
-    <div className="lg:w-full h-10  lg:min-h-[12vh] relative flex justify-start  items-center lg:ml-[15%] w-[90%]  my-4 ml-5 lg:m-0">
+    <div className="lg:w-[80%] lg:mx-auto  h-10  lg:min-h-[12vh] relative flex justify-start  items-center  w-[90%]  my-4 ml-5 lg:m-0">
       <i className ="ri-menu-line text-2xl mr-2 text-[#6556CD] lg:hidden"></i> 
       <LogoNav />
       <i className="ri-search-line text-zinc-400 text-2xl font-bold lg:text-3xl"></i>

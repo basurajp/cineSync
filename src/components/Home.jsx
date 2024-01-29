@@ -12,6 +12,7 @@ const Home = () => {
   usegetWallpaperData();
   
 
+  
   return (
     <>
       <SideNav />
